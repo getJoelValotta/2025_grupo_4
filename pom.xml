@@ -30,5 +30,37 @@
       <scope>system</scope>
       <systemPath>${project.basedir}/lib/SubiQueTeLlevo_v2.jar</systemPath>
     </dependency>
+
+      <dependency>
+          <groupId>com.jar.testing</groupId>
+          <artifactId>lib-byte-buddy</artifactId>
+          <version>1.0</version>
+          <scope>system</scope>
+          <systemPath>${project.basedir}/lib/byte-buddy-1.12.19.jar</systemPath>
+      </dependency>
+
+      <dependency>
+          <groupId>com.jar.testing</groupId>
+          <artifactId>lib-byte-buddy-agent</artifactId>
+          <version>1.0</version>
+          <scope>system</scope>
+          <systemPath>${project.basedir}/lib/byte-buddy-agent-1.12.19.jar</systemPath>
+      </dependency>
+
+      <dependency>
+          <groupId>com.jar.testing</groupId>
+          <artifactId>lib-mockito-core</artifactId>
+          <version>1.0</version>
+          <scope>system</scope>
+          <systemPath>${project.basedir}/lib/mockito-core-4.11.0.jar</systemPath>
+      </dependency>
+
+      <dependency>
+          <groupId>com.jar.testing</groupId>
+          <artifactId>lib-objenesis</artifactId>
+          <version>1.0</version>
+          <scope>system</scope>
+          <systemPath>${project.basedir}/lib/objenesis-3.3.jar</systemPath>
+      </dependency>
   </dependencies>
 </project>

@@ -1,3 +1,5 @@
+package test;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -5,7 +7,7 @@ import org.junit.Test;
 import modeloDatos.Cliente;
 
 public class ClienteTest {
-	Cliente c = new Cliente("JJorge", "AAAA", "Jorge");
+	Cliente c = new Cliente("Jor", "123jorge", "Jorge");
 	
 	@Test
 	public void testCliente() {
