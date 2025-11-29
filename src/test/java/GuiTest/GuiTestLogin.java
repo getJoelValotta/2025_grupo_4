@@ -1,4 +1,4 @@
-package test;
+package GuiTest;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

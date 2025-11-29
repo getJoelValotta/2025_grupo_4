@@ -1,4 +1,4 @@
-package test;
+package GuiTest;
 
 import java.awt.Component;
 import java.awt.Container;
