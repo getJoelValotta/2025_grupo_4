@@ -103,14 +103,14 @@ public class GuiTestLogin {
 		JButton login = (JButton) TestUtils.getComponentForName((Ventana)controlador.getVista(), LOGIN);
 	
 		TestUtils.clickComponent(usuario, robot);
-		TestUtils.tipeaTexto("Favio", robot);
+		TestUtils.tipeaTexto("bulo", robot);
 		TestUtils.clickComponent(contrasena, robot);
-		TestUtils.tipeaTexto("456789", robot);
+		TestUtils.tipeaTexto("123456", robot);
 		TestUtils.clickComponent(login, robot);
 		
 		JPanel panelCliente = (JPanel) TestUtils.getComponentForName((Ventana)controlador.getVista(), Constantes.PANEL_CLIENTE);
 		assertTrue("Deberia acceder al panel cliente", panelCliente != null);
-		assertEquals("Nombre real incorecto", "CincoHoras DeSufrimiento", ((TitledBorder) panelCliente.getBorder()).getTitle());
+		assertEquals("Nombre real incorecto", "Aristobulo Cecive", ((TitledBorder) panelCliente.getBorder()).getTitle());
 	}
 	
 //_______________________________________TEST ENABLE/DISABE________________________________________________________________

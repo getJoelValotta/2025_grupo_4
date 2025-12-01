@@ -169,9 +169,9 @@ public class GuiTestAdministrador {
 	    
 	    TestUtils.clickComponent(temporario, robot);
 	    TestUtils.clickComponent(nombreChofer, robot);
-	    TestUtils.tipeaTexto("Nahue", robot);
+	    TestUtils.tipeaTexto("Roberto", robot);
 	    TestUtils.clickComponent(dniChofer, robot);
-	    TestUtils.tipeaTexto("33222444", robot);
+	    TestUtils.tipeaTexto("11111111", robot);
 	    TestUtils.clickComponent(nuevoChofer, robot);
 	    
 	    for (int i = 0; i < listaChoferes.getModel().getSize() && !flag; i++) {
@@ -307,7 +307,7 @@ public class GuiTestAdministrador {
 	    
 	    TestUtils.clickComponent(permanente, robot);
 	    TestUtils.clickComponent(nombreChofer, robot);
-	    TestUtils.tipeaTexto("MIli", robot);
+	    TestUtils.tipeaTexto("Mili", robot);
 	    TestUtils.clickComponent(dniChofer, robot);
 	    TestUtils.tipeaTexto("44444444", robot);
 	    TestUtils.clickComponent(cantHijos, robot);
@@ -338,8 +338,7 @@ public class GuiTestAdministrador {
 		JTextField dniChofer = (JTextField) TestUtils.getComponentForName((Ventana)controlador.getVista(), DNI_CHOFER);
 	    JTextField nombreChofer = (JTextField) TestUtils.getComponentForName((Ventana)controlador.getVista(), NOMBRE_CHOFER);
 	    JRadioButton temporario = (JRadioButton) TestUtils.getComponentForName((Ventana)controlador.getVista(), TEMPORARIO);
-	    JButton nuevoChofer = (JButton) TestUtils.getComponentForName((Ventana)controlador.getVista(), NUEVO_CHOFER);
-	    
+	   
 	    TestUtils.clickComponent(temporario, robot);
 	    TestUtils.clickComponent(nombreChofer, robot);
 	    TestUtils.tipeaTexto("MIli", robot);
@@ -401,7 +400,7 @@ public class GuiTestAdministrador {
 		TestUtils.clickComponent(patente, robot);
 		TestUtils.tipeaTexto("a", robot);
 		TestUtils.clickComponent(cantPlazas, robot);
-		TestUtils.tipeaTexto("1", robot);
+		TestUtils.tipeaTexto("4", robot);
 		
 		Assert.assertTrue(nuevoVehiculo.isEnabled());
 	}
@@ -419,7 +418,7 @@ public class GuiTestAdministrador {
 		TestUtils.clickComponent(patente, robot);
 		TestUtils.tipeaTexto("PA222TE", robot);
 		TestUtils.clickComponent(cantPlazas, robot);
-		TestUtils.tipeaTexto("1", robot);
+		TestUtils.tipeaTexto("4", robot);
 		TestUtils.clickComponent(nuevoVehiculo, robot);
 		
 		for (int i = 0; i < listaVehiculos.getModel().getSize() && !flag; i++) {
@@ -449,7 +448,7 @@ public class GuiTestAdministrador {
 		TestUtils.clickComponent(patente, robot);
 		TestUtils.tipeaTexto("a", robot);
 		TestUtils.clickComponent(cantPlazas, robot);
-		TestUtils.tipeaTexto("1", robot);
+		TestUtils.tipeaTexto("8", robot);
 		
 		Assert.assertTrue(nuevoVehiculo.isEnabled());
 	}
@@ -467,7 +466,7 @@ public class GuiTestAdministrador {
 		TestUtils.clickComponent(patente, robot);
 		TestUtils.tipeaTexto("PA111TE", robot);
 		TestUtils.clickComponent(cantPlazas, robot);
-		TestUtils.tipeaTexto("1", robot);
+		TestUtils.tipeaTexto("8", robot);
 		TestUtils.clickComponent(nuevoVehiculo, robot);
 		
 		for (int i = 0; i < listaVehiculos.getModel().getSize() && !flag; i++) {
